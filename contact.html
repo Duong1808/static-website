@@ -1,0 +1,104 @@
+RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Nguyen Tuan Duong
+ID: S3965530
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this page is where you can find yourself a wonderful book">
+    <title>Online book shop</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/book image.png" type="image/x-icon">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="image/booklogo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="home_page.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>  
+                <li><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>                
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="p-header">
+        <h2>Contact</h2>
+    </section>
+
+    <section id="form-info">
+        <form action="">
+            <h2>Fill our form</h2>
+            <select>
+                <option>I want to buy books</option>
+                <option>I want to sell books</option>
+            </select> <br>
+            <input type="text" placeholder="Your name">
+            <input type="text" placeholder="Gmail">
+            <input type="text" placeholder="Phone">
+            <textarea name="" id="" cols="30" rows="10">Notes</textarea>
+            <input type="checkbox" id="Email1" name="Email1" value="Email1" >
+            <label for="Email1">by Email</label><br>
+            <input type="checkbox" id="Phone2" name="Phone2" value="Phone2">
+            <label for="Phone2">by Phone</label><br>                
+            <button class="button1">Submit</button>
+            <button class="button2">Reset</button>
+        </form>
+    </section>
+
+
+
+    <section id="updating-letter" class="section-p section-m">
+        <div class="newstext">
+            <h4>Sign up for updating</h4>
+            <p>Receive Email updates about our lastest book and <span>special offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email">
+            <button class="nor">Sign up</button>
+        </div>
+    </section>
+
+    <footer class="section-p">
+        <div class="column">
+            <img class="logo" src="image/booklogo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Phone number:</strong> (+84) 0938 511 123</p>
+            <div class="follow">
+                <h4>Follow us for more</h4>
+                <div class="icon">
+                    <img src="image/Facebook.png" alt="" width="20px" height="20px">
+                    <img src="image/instagram.png" alt="" width="33px" height="20px">
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Term</a>
+            <a href="#">Copyright</a>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

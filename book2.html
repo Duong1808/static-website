@@ -1,0 +1,178 @@
+RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Nguyen Tuan Duong
+ID: S3965530
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this page is where you can find yourself a wonderful book">
+    <title>Online book shop</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/book image.png" type="image/x-icon">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="image/booklogo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="home_page.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="aboutus.html">About us</a></li>  
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>                
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="book-details" class="section-p">
+        <div class="book-image">
+            <img src="image/book2.png" width="100%" id="main-image" alt="">
+            
+            <div class="small-img-group">
+                <div class="small-ing-column">
+                    <img src="image/book2.png" width="100%" class="small-ing" alt="">
+                </div>
+                <div class="small-ing-column">
+                    <img src="image/book2-1.png" width="100%" class="small-ing" alt="">
+                </div>
+                <div class="small-ing-column">
+                    <img src="image/book2-2.png" width="100%" class="small-ing" alt="">
+                </div>
+            </div>
+        
+        </div>
+        
+        
+        <div class="single-book-detail">
+            <h6>Jules Verne</h6>
+            <h4>Twenty Thousand Leagues Under the Sea</h4>
+            <p>80,000 VND</p>
+            <select>
+                <option>Type</option>
+                <option>Hardcover</option>
+                <option>Paperback</option> 
+            </select>
+            <input type="number" value="">
+            <button class="nor">Add to cart</button>
+            <h4>Book details</h4>
+            <span>"The sea is everything. It covers seven tenths of the terrestrial globe. Its breath is pure and healthy. It is an immense desert, where man is never lonely, for he feels life stirring on all sides. The sea is only the embodiment of a supernatural and wonderful existence. It is nothing but love and emotion; it is the Living Infinite. " "We may brave human laws, but we cannot resist natural ones." "If there were no thunder, men would have little fear of lightning." "With its untold depths, couldn't the sea keep alive such huge specimens of life from another age, this sea that never changes while the land masses undergo almost continuous alteration? Couldn't the heart of the ocean hide the last-remaining varieties of these titanic species, for whom years are centuries and centuries millennia?" "I am not what you call a civilised man! I have done with society entirely, for reasons which I alone have the right of appreciating. I do not, therefore, obey its laws, and I desire you never to allude to them before me again!" "Captain Nemo pointed to this prodigious heap of shellfish, and I saw that these mines were genuinely inexhaustible, since nature's creative powers are greater than man's destructive instincts."</span>
+        </div>
+    </section>
+
+    <section id="product2" class="section-p">
+        <p>Most favorite books</p>
+        <div class="pro-container">
+            <div class="pro" onclick="window.location.href='book4.html';">
+                <img src="image/book4.jpg" alt="">
+                <div class="description">
+                    <span>Baird T.Spalding</span>
+                    <h5>Life and teaching of the masters of the far east</h5>
+                    <h4>109,000 VND</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='book5.html';">
+                <img src="image/book5.jpg" alt="">
+                <div class="description">
+                    <span> Dale Carnegie</span>
+                    <h5>How to Win Friends and Influence People</h5>
+                    <h4>77,000 VND</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='book5.html';">
+                <img src="image/book6.jpg" alt="">
+                <div class="description">
+                    <span>Miguel de Cervantes</span>
+                    <h5>Don Quixote</h5>
+                    <h4>80,500 VND</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="feature" class="section-p">
+        <div class="feature-box">
+            <img src="image/feature1.png" alt="">
+            <h6>Free-ship</h6>
+        </div>
+        <div class="feature-box">
+            <img src="image/feature2.png" alt="">
+            <h6>Customer services</h6>
+        </div>
+        <div class="feature-box">
+            <img src="image/feature3.png" alt="">
+            <h6>Online shopping</h6>
+        </div>
+    </section>
+
+    <section id="updating-letter" class="section-p section-m">
+        <div class="newstext">
+            <h4>Sign up for updating</h4>
+            <p>Receive Email updates about our lastest book and <span>special offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email">
+            <button class="nor">Sign up</button>
+        </div>
+    </section>
+
+    <footer class="section-p">
+        <div class="column">
+            <img class="logo" src="image/booklogo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Phone number:</strong> (+84) 0938 511 123</p>
+            <div class="follow">
+                <h4>Follow us for more</h4>
+                <div class="icon">
+                    <img src="image/Facebook.png" alt="" width="20px" height="20px">
+                    <img src="image/instagram.png" alt="" width="33px" height="20px">
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <h4>About</h4>
+            <a href="aboutus.html">About us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Term</a>
+            <a href="#">Copyright</a>
+        </div>
+    </footer>
+
+    <script>
+        var MainImg = document.getElementById("main-image");
+        var smalling = document.getElementsByClassName("small-ing");
+
+        smalling[0].onclick = function(){
+            MainImg.src = smalling[0].src;
+        }
+        smalling[1].onclick = function(){
+            MainImg.src = smalling[1].src;
+        }
+        smalling[2].onclick = function(){
+            MainImg.src = smalling[2].src;
+        }
+        
+    </script>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
+

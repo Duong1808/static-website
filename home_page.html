@@ -1,0 +1,186 @@
+RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Nguyen Tuan Duong
+ID: S3965530
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this page is where you can find yourself a wonderful book">
+    <title>Online book shop</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/book image.png" type="image/x-icon">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="image/booklogo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="home_page.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>   
+                <li><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>                
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="promotion">
+        <h4>Book World, Only books can tell us truth, beauty and love</h4>
+        <h2>Deal of the day</h2>
+        <h1>On all books</h1>
+        <p>Up to 40% off!</p>
+        <button>Shop Now</button>
+    </section>
+
+
+    <section id="feature" class="section-p">
+        <div class="feature-box">
+            <img src="image/feature1.png" alt="">
+            <h6>Free-ship</h6>
+        </div>
+        <div class="feature-box">
+            <img src="image/feature2.png" alt="">
+            <h6>Customer services</h6>
+        </div>
+        <div class="feature-box">
+            <img src="image/feature3.png" alt="">
+            <h6>Online shopping</h6>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p">
+        <h2>Books</h2>
+        <a href="category1.html">New release this week</a>
+        <div class="pro-container">
+            <div class="pro" onclick="window.location.href='book1.html';">
+                <img src="image/book1.jpg" alt="">
+                <div class="description">
+                    <span>Jules Verne</span>
+                    <h5>Journey to the Center of the Earth</h5>
+                    <h4>74,500 VND</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='book2.html';">
+                <img src="image/book2.png" alt="">
+                <div class="description">
+                    <span>Jules Verne</span>
+                    <h5>Twenty Thousand Leagues Under the Sea</h5>
+                    <h4>80,000 VND</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='book3.html';">
+                <img src="image/book3.png" alt="">
+                <div class="description">
+                    <span>Jules Verne</span>
+                    <h5>Around the Moon</h5>
+                    <h4>74,500 VND</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="product2" class="section-p">
+        <a href="category2.html">Most favourive book</a>
+        <div class="pro-container">
+            <div class="pro" onclick="window.location.href='book4.html';">
+                <img src="image/book4.jpg" alt="">
+                <div class="description">
+                    <span>Baird T.Spalding</span>
+                    <h5>Life and teaching of the masters of the far east</h5>
+                    <h4>109,000 VND</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='book5.html';">
+                <img src="image/book5.jpg" alt="">
+                <div class="description">
+                    <span> Dale Carnegie</span>
+                    <h5>How to Win Friends and Influence People</h5>
+                    <h4>77,000 VND</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='book6.html';">
+                <img src="image/book6.jpg" alt="">
+                <div class="description">
+                    <span>Miguel de Cervantes</span>
+                    <h5>Don Quixote</h5>
+                    <h4>80,500 VND</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="updating-letter" class="section-p section-m">
+        <div class="newstext">
+            <h4>Sign up for updating</h4>
+            <p>Receive Email updates about our lastest book and <span>special offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email">
+            <button class="nor">Sign up</button>
+        </div>
+    </section>
+
+    <section id="contact-info" class="section-p">
+        <div class="info">
+            <h2>Visit our shop</h2>
+            <br>
+            <div>
+                <ul>Address: 1164A Le Van Luong, Phuoc Kien, Nha Be</ul>
+                <br>
+                <ul>Open hours: 8:00am - 19:00pm</ul>
+                <br>
+                <ul>Mon - Sat</ul>
+            </div>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.427409011488!2d106.7039298!3d10.701479400000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175301e216f1171%3A0xc05d7e2b02eb0a4e!2zMTE2NCBMw6ogVsSDbiBMxrDGoW5nLCBQaMaw4bubYyBLaeG7g24sIE5ow6AgQsOoLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1682262232513!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer class="section-p">
+        <div class="column">
+            <img class="logo" src="image/booklogo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Phone number:</strong> (+84) 0938 511 123</p>
+            <div class="follow">
+                <h4>Follow us for more</h4>
+                <div class="icon">
+                    <img src="image/Facebook.png" alt="" width="20px" height="20px">
+                    <img src="image/instagram.png" alt="" width="33px" height="20px">
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <h4>About</h4>
+            <a href="aboutus.html">About us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Term</a>
+            <a href="#">Copyright</a>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
